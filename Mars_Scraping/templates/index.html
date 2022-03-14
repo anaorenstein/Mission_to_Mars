@@ -16,17 +16,21 @@
       <div class="jumbotron text-center">
         <h1>Mission to Mars</h1>
         <!-- Add a button to activate scraping script -->
-        <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+        <p><a class="btn btn-success btn-lg" href="/scrape" role="button">Scrape New Data</a>
+        </p>
       </div>
-
-      <!-- Add section for Mars News -->
+      
+ <!-- Add section for Mars News -->
       <div class="row" id="mars-news">
         <div class="col-md-12">
           <div class="media">
             <div class="media-body">
               <h2>Latest Mars News</h2>
               <h4 class="media-heading">{{ mars.news_title }}</h4>
-              <p>{{ mars.news_paragraph }}</p>
+              <blockquote>
+                <p>{{ mars.news_paragraph }}</p>
+                <footer> Real-time news update from the Mars Science Exploration Program at <cite title="Source Title">NASA</cite></footer>
+              </blockquote>
             </div>
           </div>
         </div>
@@ -74,3 +78,6 @@
     </div>
   </body>
 </html>
+
+
+
