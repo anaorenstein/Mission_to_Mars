@@ -18,7 +18,7 @@ The following diagram illustrates the process visually:
 
 
 
-### Results
+### Final Project
 
 The screenshots below show our web application, where the`Scrape New Data` button refreshes a real-time update of web scrapes from the Mars Science Exploration Program and the Astropedia Lunar and Planetary Cartographic Catalog websites from NASA; with news articles, Mars facts, real-time images of its surface, and breath-taking photographic views of its four hemispheres:
 
