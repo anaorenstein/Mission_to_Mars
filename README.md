@@ -1,10 +1,10 @@
 # Mission to Mars
 
-#### Summary
+### Summary
 
 Robin, a data analyst with astronomy as a hobby, approached us to help build a we application called **Mission to Mars**. The goal was to create a web application with a basic design, that would contain a button that would refresh the page with Real-time news scraped from the live website of the **Mars Science Exploration Program** at **NASA**. 
 
-#### Execution
+### Execution
 
 - Using **BeautifulSoup** and **Splinter** on **Jupyter Notebook** using **Python** language, we automated a web browser that performed a web scrape, visiting different websites that contained data about the Mission to Mars. 
 - Using **MongoDB** we stored our data it in a NoSQL database.
@@ -18,7 +18,7 @@ The following diagram illustrates the process visually:
 
 
 
-#### Results
+### Results
 
 The screenshots below show our web application, where the`Scrape New Data` button refreshes a real-time update of web scrapes from the Mars Science Exploration Program and the Astropedia Lunar and Planetary Cartographic Catalog websites from NASA; with news articles, Mars facts, real-time images of its surface, and breath-taking photographic views of its four hemispheres:
 
